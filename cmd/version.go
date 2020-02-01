@@ -2,6 +2,7 @@ package cmd
 
 import (
 	"fmt"
+
 	"github.com/lacion/cookiecutter_golang_example/version"
 	"github.com/spf13/cobra"
 )
