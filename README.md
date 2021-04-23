@@ -29,7 +29,7 @@ hierachy create -n theBestTeam
 ### Append someone to your hierachy file
 
 ``` bash
-hierachy append -n theBestTeam.csv "FirstName LastName" POSITION "OFFICE PLACE" email@demo.com
+hierachy append -f theBestTeam.csv "FirstName LastName" POSITION "OFFICE PLACE" email@demo.com
 ```
 
 for example:
@@ -53,3 +53,7 @@ hierachy append -f theBestTeam.csv "Kevin Sapindhotel" "software engineer intern
 ### Testing
 
 ``make test``
+
+```
+./bin/ToDefine append -f thesee.csv "FirstName LastName" POSITION "OFFICE PLACE" email@demo.com
+```
